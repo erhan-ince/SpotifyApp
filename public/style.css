@@ -1,0 +1,54 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+#sec1 {
+     background: url(spotify-background\ 1.png);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background-color: lightgray;
+     height: 400px;
+     width: 500px;
+     opacity: 0.5;
+}
+.submit {
+     width: 200px;
+     background-color: tomato;
+     border-radius: 10px;
+}
+.search {
+     width: 300px;
+     padding-bottom: 20px;
+}
+.secResults {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 25px;
+     background-color: #222323;
+}
+.divResults {
+     background-color: #494949;
+     width: 300px;
+     margin-left: 10%;
+}
+.divResults img {
+     width: 300px;
+     height: 300px;
+}
+.divResults h1 {
+     color: white;
+     padding: 5px 0;
+}
+.divResults a {
+     text-decoration: none;
+     background-color: red;
+     color: white;
+}
